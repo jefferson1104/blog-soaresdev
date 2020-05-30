@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Jefferson Developer Soares`,
+    position: `Analista de Sistemas`,
     description: `Este é um site com dicas, cursos e assuntos na área de técnologia, tem como objetivo ajudar a comunidade de desenvolvedores no brasil, tirar dúvidas, e documentar todos meus conhecimentos técnicos.`,
     author: `@jeffersonSoares`,
   },
