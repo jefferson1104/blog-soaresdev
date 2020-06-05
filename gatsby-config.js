@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Jefferson Developer Soares`,
+    title: `Jefferson  Soares`,
     position: `Analista de Sistemas`,
-    description: `Este é um site com dicas, cursos e assuntos na área de técnologia, tem como objetivo ajudar a comunidade de desenvolvedores no brasil, tirar dúvidas, e documentar todos meus conhecimentos técnicos.`,
+    description: `Um blog para documentar meus conhecimentos técnicos e ajudar a comunidade de Desenvolvedores.`,
     author: `@jeffersonSoares`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
