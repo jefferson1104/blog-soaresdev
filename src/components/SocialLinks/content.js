@@ -5,7 +5,7 @@ const links = [
   },
   {
     label: 'Linkedin',
-    url: 'https://www.linkedin.com/in/jeffersonsoares110494/',
+    url: 'https://www.linkedin.com/in/jeffersonsjunior/',
   },
   {
     label: 'Twitter',
