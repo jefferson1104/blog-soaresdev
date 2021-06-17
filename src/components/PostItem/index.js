@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+import propTypes from "prop-types"
 
 import * as S from "./styled"
 
@@ -21,13 +21,13 @@ const PostItem = ({ slug, background, category, date, timeToRead, title, descrip
 )
 
 PostItem.propTypes = {
-  slug: PropTypes.string.isRequired,
-  background: PropTypes.string,
-  category: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  timeToRead: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  slug: propTypes.string.isRequired,
+  background: propTypes.string,
+  category: propTypes.string.isRequired,
+  date: propTypes.string.isRequired,
+  timeToRead: propTypes.number.isRequired,
+  title: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
 }
 
 export default PostItem
