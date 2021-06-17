@@ -1,7 +1,10 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+/*
+Este arquivo chamado "gatsby-browser.js" serve para quando precisamos importar bibliotecas ou fazer coisas com 
+javascript por fora do reactjs como por exemplo uma "trigger".
 
-// You can delete this file if you're not using it
+ Implement Gatsby's Browser APIs in this file.
+ 
+ See: https://www.gatsbyjs.org/docs/browser-apis/
+*/
+import "lazysizes"
+require("prismjs/themes/prism-tomorrow.css")
