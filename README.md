@@ -8,3 +8,11 @@ os arquivos de posts que serão os conteudos do blog.
 ##### Para rodar o projeto
 
 `yarn start` ou `gatsby develop`
+
+##### Temas dark/light (solução)
+
+Artigo sobre bugs e como foi feita uma solução para implementar a funcao de trocar tema escuro ou claro no reactJS,
+e salvar no localStorage do navegador, esse artigo é muito valioso e vale o entendimento.
+https://markoskon.com/dark-mode-in-react/
+
+OBS: arigo sobre css variables https://www.freecodecamp.org/news/learn-css-variables-in-5-minutes-80cf63b4025d/
