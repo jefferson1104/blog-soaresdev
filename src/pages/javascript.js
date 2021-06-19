@@ -8,20 +8,20 @@ import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
 
-const BlogList = props => {
-  const postList = props.data.allMarkdownRemark.edges
+const Javascript = props => {
+  const JavascriptList = props.data.allMarkdownRemark.edges
 
-  const { currentPage, numPages } = props.pageContext  
+  const { currentPage, numPages } = props.pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
-  const prevPage = currentPage -1 === 1 ? `/` : `/page/${currentPage - 1}`
-  const nextPage = `/page/${currentPage + 1}`
+  const prevPage = currentPage -1 === 1 ? `/` : `/javascript/${currentPage - 1}`
+  const nextPage = `/javascript/${currentPage + 1}`
 
   return (
     <Layout>
       <SEO title="Home" />
       <S.ListWrapper>
-        {postList.map(
+        {JavascriptList.map(
           ({
             node: {
               frontmatter: { background, category, date, description, title },
@@ -56,11 +56,10 @@ const BlogList = props => {
 }
 
 export const query = graphql`
-  query PostList($skip: Int!, $limit: Int!) {
+  query jsCategory {
     allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
-      limit: $limit
-      skip: $skip
+      filter: {frontmatter: {category: {eq: "js"}}}
+      sort: {fields: frontmatter___date, order: DESC}
     ) {
       edges {
         node {
@@ -81,4 +80,4 @@ export const query = graphql`
   }
 `
 
-export default BlogList
+export default Javascript
