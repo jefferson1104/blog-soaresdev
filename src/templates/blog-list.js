@@ -8,7 +8,7 @@ import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
 
-const BlogList = props => {
+const BlogList = (props) => {
   const postList = props.data.allMarkdownRemark.edges
 
   const { currentPage, numPages } = props.pageContext  
