@@ -3,7 +3,7 @@ date: 2015-05-10 05:54:23
 title: I am so clever
 description: That sometimes I don't understand a single word of what I am saying
 category: css
-background: "#24809e"
+background: "#2278ee"
 ---
 
 [The Big Oxmox](http://google.com) advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.

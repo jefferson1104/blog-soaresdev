@@ -2,8 +2,8 @@
 date: 2020-05-10 05:54:23
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
-category: JS
-background: "#7AAB13"
+category: js
+background: "#ddcd34"
 ---
 
 # Lorem ipsum

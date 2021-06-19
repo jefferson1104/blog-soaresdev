@@ -2,8 +2,8 @@
 date: 2015-04-22 05:54:23
 title: People will forget what you said, people will forget what you did
 description: But people will never forget how you made them feel.
-category: svg
-background: "#7d669e"
+category: html
+background: "#ee6022"
 ---
 
 Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. **Pellentesque** habitant morbi [tristique](http://google.com) senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. _Integer gravida_ nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.

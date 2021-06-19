@@ -2,8 +2,8 @@
 date: 2015-02-10 05:54:23
 title: You only live once
 description: But if you do it right, once is enough
-category: dev
-background: "#61728f"
+category: js
+background: "#ddcd34"
 ---
 
 Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. **Pellentesque** habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. _Integer gravida_ nisi ut magna mollis molestie. Nullam [pharetra](http://google.com) accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.

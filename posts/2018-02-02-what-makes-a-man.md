@@ -2,8 +2,8 @@
 date: 2018-02-02 05:54:23
 title: What makes a man?
 description: Spend his whole life in disguise?
-category: misc
-background: "#47650b"
+category: css
+background: "#2278ee"
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
