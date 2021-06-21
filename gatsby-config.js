@@ -8,7 +8,7 @@ module.exports = {
     position: `Programação Web`,
     description: `Dicas e guias rápidos para programadores com as melhores tecnologias do mercado da atualidade.`,
     author: `@jeffersonSoares`,
-    siteUrl: `https://blog.soaresdev.com`
+    siteUrl: `http://localhost:8000/`
   },
   plugins: [
     `gatsby-plugin-transition-link`,

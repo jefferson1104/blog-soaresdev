@@ -4,6 +4,7 @@ title: Two things are infinite
 description: And I'm not sure about the universe
 category: php
 background: "#948be3"
+image: "/assets/img/desert.jpg"
 ---
 
 # Lorem ipsum
