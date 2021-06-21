@@ -4,6 +4,7 @@ title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
 category: js
 background: "#ddcd34"
+image: "/assets/img/soaresdev-social-banner.png"
 ---
 
 # Lorem ipsum

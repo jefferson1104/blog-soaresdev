@@ -4,10 +4,10 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  
+
   // Ensures we are processing only markdown files
   if (node.internal.type === "MarkdownRemark") {
-    
+
     // Use `createFilePath` to turn markdown files in our `data/faqs` directory into `/faqs/slug`
     const slug = createFilePath({
       node,
@@ -42,6 +42,7 @@ exports.createPages = ({ graphql, actions }) => {
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
+            image
           }
           timeToRead
         }
