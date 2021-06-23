@@ -4,30 +4,29 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
-import Pagination from "../components/Pagination"
+// import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
 
-const BlogList = (props) => {
-  const postList = props.data.allMarkdownRemark.edges
+const Nodejs = props => {
+  const JavascriptList = props.data.allMarkdownRemark.edges
 
-  const { currentPage, numPages } = props.pageContext  
-  const isFirst = currentPage === 1
-  const isLast = currentPage === numPages
-  const prevPage = currentPage -1 === 1 ? `/` : `/page/${currentPage - 1}`
-  const nextPage = `/page/${currentPage + 1}`
-
-  const imageBanner = "/assets/img/soaresdev-social-banner.png"
+  // const { currentPage, numPages } = props.pageContext
+  // const isFirst = currentPage === 1
+  // const isLast = currentPage === numPages
+  // const prevPage = currentPage -1 === 1 ? `/` : `/javascript/${currentPage - 1}`
+  // const nextPage = `/javascript/${currentPage + 1}`
+  const imageBanner = "/assets/img/nodejs.jpg"
 
   return (
     <Layout>
       <SEO 
-        title="soaresDev"
-        description="Blog do programador, javascript, reactjs, nodejs e muito mais."
+        title="NodeJS"
+        description="Aprenda programar backend de aplicações utilizando NodeJS."
         image={imageBanner}
       />
       <S.ListWrapper>
-        {postList.map(
+        {JavascriptList.map(
           ({
             node: {
               frontmatter: { background, category, date, description, title },
@@ -49,24 +48,23 @@ const BlogList = (props) => {
         )}
       </S.ListWrapper>
 
-      <Pagination 
+      {/* <Pagination 
         isFirst={isFirst} 
         isLast={isLast} 
         currentPage={currentPage} 
         numPages={numPages} 
         prevPage={prevPage} 
         nextPage={nextPage} 
-      />
+      />*/}
     </Layout>
   )
 }
 
 export const query = graphql`
-  query PostList($skip: Int!, $limit: Int!) {
+  query nodejsCategory {
     allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
-      limit: $limit
-      skip: $skip
+      filter: {frontmatter: {category: {eq: "node"}}}
+      sort: {fields: frontmatter___date, order: DESC}
     ) {
       edges {
         node {
@@ -87,4 +85,4 @@ export const query = graphql`
   }
 `
 
-export default BlogList
+export default Nodejs

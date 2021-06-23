@@ -16,10 +16,15 @@ const Javascript = props => {
   // const isLast = currentPage === numPages
   // const prevPage = currentPage -1 === 1 ? `/` : `/javascript/${currentPage - 1}`
   // const nextPage = `/javascript/${currentPage + 1}`
+  const imageBanner = "/assets/img/javacript.png"
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO 
+        title="Javascript"
+        description="Aprenda javascript com muitas dicas, guias e contúdos praticos."
+        image={imageBanner}
+      />
       <S.ListWrapper>
         {JavascriptList.map(
           ({

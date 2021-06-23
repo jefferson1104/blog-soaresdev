@@ -1,42 +1,20 @@
 ---
-date: 2020-05-10 05:54:23
-title: Lorem lorem ipsum
-description: And I'm lorem sure lorem
-category: js
-background: "#ddcd34"
-image: "/assets/img/lake.jpg"
+date: 2020-04-11 09:20:54
+title: PHP 7 Course
+description: Full course of PHP 7.4
+category: php
+background: "#948be3"
+image: "/assets/img/php.jpg"
 ---
 
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-```Javascript
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+![PHP7](/assets/img/php.jpg)
 
-import * as S from './styled'
-
-
-const Avatar = () => {
-    const { avatarImage } = useStaticQuery(
-        graphql`
-            query {
-                avatarImage: file(relativePath: {eq: "soaresDev.png"}) {
-                    childImageSharp {
-                        fixed(width: 60, height: 60) {
-                            ...GatsbyImageSharpFixed_tracedSVG
-                        }
-                    }
-                }
-            }
-        `
-    )
-
-    return <S.AvatarWrapper fixed={avatarImage.childImageSharp.fixed} />
-}
-
-export default Avatar
+```php
+<?php echo "<p>Olá Mundo</p>"; ?>
 ```
 
 ## Fusce a metus eu

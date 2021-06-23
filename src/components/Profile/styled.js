@@ -29,7 +29,11 @@ export const ProfileAuthor = styled.h1`
 
   ${media.lessThan("large")`
     font-size: 1.2rem;
-    margin: 0 0 0 10px;
+    margin: 0;
+  `}
+
+  ${media.greaterThan("large")`
+    display: none;
   `}
 `
 
@@ -51,5 +55,9 @@ export const ProfileDescription = styled.p`
 
   ${media.lessThan("large")`
     display: none;
+  `}
+
+  ${media.greaterThan("large")`
+    margin-top: 20px;
   `}
 `

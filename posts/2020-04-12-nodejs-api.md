@@ -1,42 +1,27 @@
 ---
-date: 2020-05-10 05:54:23
-title: Lorem lorem ipsum
-description: And I'm lorem sure lorem
-category: js
-background: "#ddcd34"
-image: "/assets/img/lake.jpg"
+date: 2020-04-11 09:20:54
+title: NodeJS API
+description: You create first nodejs api
+category: node
+background: "#47650b"
+image: "/assets/img/nodejs.jpg"
 ---
 
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-```Javascript
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+![NodeJS](/assets/img/nodejs.jpg)
 
-import * as S from './styled'
+```javascript
+var http = require("http")
 
-
-const Avatar = () => {
-    const { avatarImage } = useStaticQuery(
-        graphql`
-            query {
-                avatarImage: file(relativePath: {eq: "soaresDev.png"}) {
-                    childImageSharp {
-                        fixed(width: 60, height: 60) {
-                            ...GatsbyImageSharpFixed_tracedSVG
-                        }
-                    }
-                }
-            }
-        `
-    )
-
-    return <S.AvatarWrapper fixed={avatarImage.childImageSharp.fixed} />
-}
-
-export default Avatar
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/plain" })
+    res.end("Hello World!")
+  })
+  .listen(8080)
 ```
 
 ## Fusce a metus eu

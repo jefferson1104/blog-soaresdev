@@ -1,42 +1,21 @@
 ---
-date: 2020-05-10 05:54:23
-title: Lorem lorem ipsum
-description: And I'm lorem sure lorem
+date: 2020-04-11 09:20:54
+title: Javascript fundations
+description: Your first course of javascript
 category: js
 background: "#ddcd34"
-image: "/assets/img/lake.jpg"
+image: "/assets/img/javascript.png"
 ---
 
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-```Javascript
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+![Javascript](/assets/img/javascript.png)
 
-import * as S from './styled'
-
-
-const Avatar = () => {
-    const { avatarImage } = useStaticQuery(
-        graphql`
-            query {
-                avatarImage: file(relativePath: {eq: "soaresDev.png"}) {
-                    childImageSharp {
-                        fixed(width: 60, height: 60) {
-                            ...GatsbyImageSharpFixed_tracedSVG
-                        }
-                    }
-                }
-            }
-        `
-    )
-
-    return <S.AvatarWrapper fixed={avatarImage.childImageSharp.fixed} />
-}
-
-export default Avatar
+```javascript
+const js = "first course of javascript"
+console.log(js)
 ```
 
 ## Fusce a metus eu

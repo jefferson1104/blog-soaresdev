@@ -7,8 +7,8 @@ module.exports = {
     title: `SoaresDev`,
     position: `Programação Web`,
     description: `Dicas e guias rápidos para programadores com as melhores tecnologias do mercado da atualidade.`,
-    author: `@jeffersonSoares`,
-    siteUrl: `http://localhost:8000/`
+    author: `@jeffersonsjunior`,
+    siteUrl: `https://blog.soaresdev.com/`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -74,15 +74,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Blog soaresDev`,
+        short_name: `soaresDev`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#16202c`,
+        theme_color: `#16202c`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/soaresdev-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

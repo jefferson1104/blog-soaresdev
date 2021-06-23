@@ -1,42 +1,45 @@
 ---
-date: 2020-05-10 05:54:23
-title: Lorem lorem ipsum
-description: And I'm lorem sure lorem
-category: js
-background: "#ddcd34"
-image: "/assets/img/lake.jpg"
+date: 2020-04-11 09:20:54
+title: ReactJS front-end lib
+description: The complete guide of ReactJS
+category: react
+background: "#60cae1"
+image: "/assets/img/reactjs.jpg"
 ---
 
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-```Javascript
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+![ReactJS](/assets/img/reactjs.jpg)
 
-import * as S from './styled'
+```javascript
+import React from "react"
+import Display from "./Display"
+import ButtonPanel from "./ButtonPanel"
+import calculate from "../logic/calculate"
+import "./App.css"
 
+export default class App extends React.Component {
+  state = {
+    total: null,
+    next: null,
+    operation: null,
+  }
 
-const Avatar = () => {
-    const { avatarImage } = useStaticQuery(
-        graphql`
-            query {
-                avatarImage: file(relativePath: {eq: "soaresDev.png"}) {
-                    childImageSharp {
-                        fixed(width: 60, height: 60) {
-                            ...GatsbyImageSharpFixed_tracedSVG
-                        }
-                    }
-                }
-            }
-        `
+  handleClick = buttonName => {
+    this.setState(calculate(this.state, buttonName))
+  }
+
+  render() {
+    return (
+      <div className="component-app">
+        <Display value={this.state.next || this.state.total || "0"} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </div>
     )
-
-    return <S.AvatarWrapper fixed={avatarImage.childImageSharp.fixed} />
+  }
 }
-
-export default Avatar
 ```
 
 ## Fusce a metus eu
