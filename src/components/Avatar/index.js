@@ -1,10 +1,13 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
+import getThemeColor from '../../utils/getThemeColor'
 import * as S from './styled'
 
+// import imgAvatar from '../../images/jeffersonSoares.jgp'
 
 const Avatar = () => {
+    console.log(getThemeColor())
     const { avatarImage } = useStaticQuery(
         graphql`
             query {
@@ -18,7 +21,6 @@ const Avatar = () => {
             }
         `
     )
-
     return <S.AvatarWrapper fluid={avatarImage.childImageSharp.fluid} />
 }
 
