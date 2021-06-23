@@ -63,7 +63,7 @@ const Reactjs = props => {
 export const query = graphql`
   query reactjsCategory {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {eq: "php"}}}
+      filter: {frontmatter: {category: {eq: "react"}}}
       sort: {fields: frontmatter___date, order: DESC}
     ) {
       edges {
