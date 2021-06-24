@@ -22,7 +22,7 @@ const BlogList = (props) => {
   return (
     <Layout>
       <SEO 
-        title="soaresDev"
+        title="Blog"
         description="Blog do programador, javascript, reactjs, nodejs e muito mais."
         image={imageBanner}
       />
