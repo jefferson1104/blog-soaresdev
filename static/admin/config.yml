@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: jefferson1104/pwa-blog
+  branch: master
+  site_domain: blog.soaresdev.com
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["misc", "js", "react", "node", "php"],
+        }
+      - {
+          label: "Background",
+          name: "background",
+          widget: "select",
+          options:
+            [
+              { label: "misc", value: "#737380" },
+              { label: "js", value: "#ddcd34" },
+              { label: "react", value: "#60cae1" },
+              { label: "node", value: "#47650b" },
+              { label: "php", value: "#948be3" },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
