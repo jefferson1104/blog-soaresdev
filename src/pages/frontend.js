@@ -4,25 +4,25 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
-// import Pagination from "../components/Pagination"
+import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
 
-const Nodejs = props => {
+const Frontend = props => {
   const JavascriptList = props.data.allMarkdownRemark.edges
 
-  // const { currentPage, numPages } = props.pageContext
-  // const isFirst = currentPage === 1
-  // const isLast = currentPage === numPages
-  // const prevPage = currentPage -1 === 1 ? `/` : `/javascript/${currentPage - 1}`
-  // const nextPage = `/javascript/${currentPage + 1}`
-  const imageBanner = "/assets/img/nodejs.jpg"
+  const { currentPage, numPages } = props.pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage = currentPage -1 === 1 ? `/` : `/javascript/${currentPage - 1}`
+  const nextPage = `/javascript/${currentPage + 1}`
+  const imageBanner = "/assets/img/javacript.png"
 
   return (
     <Layout>
       <SEO 
-        title="NodeJS"
-        description="Aprenda programar backend de aplicações utilizando NodeJS."
+        title="Frontend"
+        description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor frontend"
         image={imageBanner}
       />
       <S.ListWrapper>
@@ -48,23 +48,23 @@ const Nodejs = props => {
         )}
       </S.ListWrapper>
 
-      {/* <Pagination 
+      <Pagination 
         isFirst={isFirst} 
         isLast={isLast} 
         currentPage={currentPage} 
         numPages={numPages} 
         prevPage={prevPage} 
         nextPage={nextPage} 
-      />*/}
+      />
     </Layout>
   )
 }
 
 export const query = graphql`
-  query nodejsCategory {
+  query Frontend {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {eq: "node"}}}
-      sort: {fields: frontmatter___date, order: DESC}
+      filter: {frontmatter: {category: {in: ["html", "css", "sass", "js", "react"]}}}, 
+      sort: {fields: frontmatter___date, order: DESC},
     ) {
       edges {
         node {
@@ -85,4 +85,4 @@ export const query = graphql`
   }
 `
 
-export default Nodejs
+export default Frontend
