@@ -13,20 +13,20 @@ const Pagination = ({
   prevPage,
   nextPage,
 }) => (
-  <S.PaginationWrapper>
-    {!isFirst && (
-      <AniLink cover direction="left" bg={getThemeColor()} duration={0.6} to={prevPage}>
-        ← Página anterior
-      </AniLink>
-    )}
-    <p>
-      {currentPage} de {numPages}
-    </p>
-    {!isLast && (
-      <AniLink cover direction="right" bg={getThemeColor()} duration={0.6} to={nextPage}>
-        Próxima página →
-      </AniLink>)}
-  </S.PaginationWrapper>
+    <S.PaginationWrapper>
+      {!isFirst && (
+        <AniLink cover direction="left" bg={getThemeColor()} duration={0.6} to={prevPage}>
+          ← Página anterior
+        </AniLink>
+      )}
+      <p>
+        {currentPage} de {numPages}
+      </p>
+      {!isLast && (
+        <AniLink cover direction="right" bg={getThemeColor()} duration={0.6} to={nextPage}>
+          Próxima página →
+        </AniLink>)}
+    </S.PaginationWrapper>
 )
 
 Pagination.propTypes = {

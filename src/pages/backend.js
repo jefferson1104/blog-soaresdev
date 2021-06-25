@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import propTypes from "prop-types"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -8,7 +9,7 @@ import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
 
-const Frontend = props => {
+const Backend = props => {
   const backendList = props.data.allMarkdownRemark.edges
 
   const { currentPage, numPages } = props.pageContext
@@ -85,4 +86,13 @@ export const query = graphql`
   }
 `
 
-export default Frontend
+Backend.propTypes = {
+  isFirst: propTypes.bool,
+  isLast: propTypes.bool,
+  currentPage: propTypes.number,
+  numPages: propTypes.number,
+  prevPage: propTypes.string,
+  nextPage: propTypes.string,
+}
+
+export default Backend

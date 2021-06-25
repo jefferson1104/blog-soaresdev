@@ -1,11 +1,9 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import getThemeColor from '../../utils/getThemeColor'
 import * as S from './styled'
 
 const Avatar = () => {
-    console.log(getThemeColor())
     const { avatarImage } = useStaticQuery(
         graphql`
             query {
