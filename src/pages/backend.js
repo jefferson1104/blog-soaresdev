@@ -9,22 +9,22 @@ import Pagination from "../components/Pagination"
 import * as S from '../components/ListWrapper/styled'
 
 const Frontend = props => {
-  const frontendList = props.data.allMarkdownRemark.edges
+  const backendList = props.data.allMarkdownRemark.edges
 
   const { currentPage, numPages } = props.pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
-  const prevPage = currentPage -1 === 1 ? `/` : `/frontend/${currentPage - 1}`
-  const nextPage = `/frontend/${currentPage + 1}`
-
+  const prevPage = currentPage -1 === 1 ? `/` : `/backend/${currentPage - 1}`
+  const nextPage = `/backend/${currentPage + 1}`
+  
   return (
     <Layout>
       <SEO 
-        title="Frontend"
-        description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor frontend"
+        title="Backend"
+        description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor backend"
       />
       <S.ListWrapper>
-        {frontendList.map(
+        {backendList.map(
           ({
             node: {
               frontmatter: { background, category, date, description, title },
@@ -59,9 +59,9 @@ const Frontend = props => {
 }
 
 export const query = graphql`
-  query FrontendList($skip: Int, $limit: Int) {
+  query BackendList($skip: Int, $limit: Int) {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {in: ["html", "css", "sass", "js", "react"]}}}, 
+      filter: {frontmatter: {category: {in: ["node", "php", "bd"]}}}, 
       sort: {fields: frontmatter___date, order: DESC},
       limit: $limit,
       skip: $skip

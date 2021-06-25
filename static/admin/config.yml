@@ -29,7 +29,7 @@ collections:
           name: "category",
           widget: "select",
           options:
-            ["misc", "html", "css", "sass", "js", "react", "node", "php"],
+            ["misc", "html", "css", "sass", "js", "react", "node", "php", "bd"],
         }
       - {
           label: "Background",
@@ -38,10 +38,14 @@ collections:
           options:
             [
               { label: "misc", value: "#737380" },
+              { label: "html", value: "#ee6022" },
+              { label: "css", value: "#2278ee" },
+              { label: "sass", value: "#f5428d" },
               { label: "js", value: "#ddcd34" },
               { label: "react", value: "#60cae1" },
               { label: "node", value: "#47650b" },
               { label: "php", value: "#948be3" },
+              { label: "bd", value: "#f54242" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }

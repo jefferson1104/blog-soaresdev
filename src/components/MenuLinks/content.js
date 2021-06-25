@@ -4,6 +4,10 @@ const links = [
     url: "/",
   },
   {
+    label: "Backend",
+    url: "/backend/",
+  },
+  {
     label: "Frontend",
     url: "/frontend/",
   },

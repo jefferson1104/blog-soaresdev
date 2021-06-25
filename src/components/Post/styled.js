@@ -238,4 +238,26 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+
+  #about-banner {
+    width: 650px;
+    transition: opacity 0.2s;
+    
+    &:hover {
+      opacity: 0.7;
+    }
+
+    img {
+      border-radius: 8px;
+      margin-left: 20px;
+    }
+    
+    ${media.lessThan("large")`
+      width: unset;
+
+      img {
+        margin-left:0;
+      }
+    `}
+  }
 `

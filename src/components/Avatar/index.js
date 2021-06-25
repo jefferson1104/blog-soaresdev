@@ -19,6 +19,7 @@ const Avatar = () => {
             }
         `
     )
+
     return <S.AvatarWrapper fluid={avatarImage.childImageSharp.fluid} />
 }
 
