@@ -13,32 +13,21 @@ const AboutPage = () => (
 
         <S.PostHeader>
             <S.PostTitle>SOBRE</S.PostTitle>
-            <S.PostDescription>Blog soaresDev o blog do programador</S.PostDescription>
+            <S.PostDescription>Blog soaresDev, o blog do desenvolvedor web</S.PostDescription>
         </S.PostHeader>
         <S.MainContent>
             <div id="about-banner">
                 <img  src={imgBanner} alt="soaresDev Banner" />
             </div>
             <p>
-                Meu nome é Jefferson Soares, criado na zona leste de São Paulo e com poucas oportunidades como todo jovem
-                de periferia, comecei minha vida profissional como lojista não era fácil, mas era divertido, devido a sempre
-                ter uma boa relação com pessoas e uma facilidade em me comunicar consegui ter um ótimo rendimento e produtividade
-                atuando como vendedor, mas ainda assim eu não me sentia no caminho certo, não era apaixonado pelo que estava fazendo.
+                Olá, meu nome é Jefferson Soares e eu sou desenvolvedor web, desde pequeno sempre fui apaixonado por técnologia e
+                pela forma que ela transforma o mundo, no <strong>Blog soaresDev</strong> vou compartilhar conhecimento, postar
+                dicas, guias rápidos e também notícias da área de desenvolvimento web.
             </p>
-
             <p>
-                Desde pequeno sempre fui apaixonado por técnologia, e em como ela transforma a vida de pessoas e o mundo,
-                a programação nunca foi novidade pra mim mas veio pra me tornar um profissional feliz, não foi uma transição 
-                de carreira, eu não tracei um plano de ação e também nao fiz um mapeamento de oportunidades, porém quando a 
-                primeira surgiu eu mergulhei fundo, preparei a mente e o tempo livre para estudar, investi e continuo investindo
-                em qualificação e bastante networking, hoje sou completamente apaixonado pelo que faço, descobri o quanto gosto
-                de estudar e vi o tanto que isso mudou minha vida.
-            </p>
-
-            <p>
-                Este blog é uma forma de agradecer a programação web por toda mudança positiva que fez e vem fazendo na minha vida,
-                aqui quero compartilhar meus conhecimentos sempre que eu puder, tudo que eu aprendi e tudo que vou aprender, a evolução
-                é contínua e nunca podemos parar de aprender.
+                Este blog é uma forma de agradecer a programação web por toda mudança positiva que fez, e que vem fazendo na minha vida,
+                não fique de fora e sinta-se a vontade para mandar sugestões, participe dessa jornada e contribua com o blog
+                entre em contato comigo através do  <a href="mailto:soaresdevcompany@gmail.com" target="_blank">email soaresdevcompany@gmail.com</a>.
             </p>
         </S.MainContent>
     </Layout>
