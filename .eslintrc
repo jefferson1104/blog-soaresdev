@@ -1,6 +1,8 @@
 {
   "ignorePatterns": ["temp.js", "**/vendor/*.js"],
   "rules": {
-    "react/jsx-pascal-case": "allowAllCaps"
+    "react/jsx-pascal-case": "allowAllCaps",
+    "extends": "airbnb",
+    "plugins": ["react"]
   }
 }

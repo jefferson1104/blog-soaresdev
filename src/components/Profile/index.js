@@ -1,46 +1,36 @@
 import React from "react"
-import { useStaticQuery, graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 
 import Avatar from '../Avatar'
 
 import getThemeColor from '../../utils/getThemeColor'
 import * as S from './styled'
 
-const Profile = () => {
-    const {
-        site: { 
-            siteMetadata: {title, position, description },
-        },
-    } = useStaticQuery(graphql`
-        query MySiteMetaData {
-            site {
-                siteMetadata {
-                    title
-                    position
-                    description
-                }
-            }
-        }
-    `)
+const Profile = ({ title, position, description, isMobileHeader }) => {
+  return (
+    <S.ProfileWrapper isMobileHeader={isMobileHeader}>
+      <S.ProfileLink
+        to="/"
+        cover 
+        direction="left" 
+        bg={getThemeColor()} 
+        duration={0.6}
+      >
+        <Avatar />
+        <S.ProfileAuthor>
+          {title}
+          <S.ProfilePosition>{position}</S.ProfilePosition>
+        </S.ProfileAuthor>
+      </S.ProfileLink>
+      <S.ProfileDescription>{description}</S.ProfileDescription>
+    </S.ProfileWrapper>
+  )
+}
 
-    return (
-        <S.ProfileWrapper>
-          <S.ProfileLink
-            to="/"
-            cover 
-            direction="left" 
-            bg={getThemeColor()} 
-            duration={0.6}
-          >
-            <Avatar />
-            <S.ProfileAuthor>
-              {title}
-              <S.ProfilePosition>{position}</S.ProfilePosition>
-            </S.ProfileAuthor>
-          </S.ProfileLink>
-          <S.ProfileDescription>{description}</S.ProfileDescription>
-        </S.ProfileWrapper>
-    )
+Profile.propTypes = {
+  title: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 }
 
 export default Profile

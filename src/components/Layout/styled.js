@@ -6,6 +6,7 @@ export const LayoutWrapper = styled.section`
 
   ${media.lessThan("large")`
     flex-direction: column;
+    padding-top: 4.125rem;
   `}
 `
 
@@ -22,7 +23,7 @@ export const LayoutMain = styled.main`
       "pagination";
   }
 
-  ${media.lessThan("large")`
-    padding: 4.125rem 0 3rem 0;
+  ${media.lessThan('large')`
+    padding: 0 0 3rem 0;
   `}
 `
