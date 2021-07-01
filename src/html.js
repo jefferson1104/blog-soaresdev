@@ -12,15 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5256FZZD7"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-T5256FZZD7');
-        </script>
+        <meta name="google-site-verification" content="4zQ4B8meCFBbfLyxbMyEhy-kaXAhpOl2gG3uSHQS4_M" />
       </head>
       <body {...props.bodyAttributes} className="dark">
         <script
