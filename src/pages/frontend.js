@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import propTypes from "prop-types"
+import ReactGA from 'react-ga'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -8,6 +9,14 @@ import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
+
+const frontendClickTrack = frontend => {
+  ReactGA.event({
+    category: 'frontend',
+    action: 'click',
+    label: `Link frontend - ${frontend}`
+  })
+}
 
 const Frontend = props => {
   const frontendList = props.data.allMarkdownRemark.edges
@@ -20,7 +29,7 @@ const Frontend = props => {
 
   return (
     <Layout>
-      <SEO 
+      <SEO
         title="Frontend"
         description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor frontend"
       />
@@ -42,18 +51,19 @@ const Frontend = props => {
               timeToRead={timeToRead}
               title={title}
               description={description}
+              onClick={() => frontendClickTrack(title)}
             />
           )
         )}
       </S.ListWrapper>
 
-      <Pagination 
-        isFirst={isFirst} 
-        isLast={isLast} 
-        currentPage={currentPage} 
-        numPages={numPages} 
-        prevPage={prevPage} 
-        nextPage={nextPage} 
+      <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
       />
     </Layout>
   )
@@ -62,7 +72,7 @@ const Frontend = props => {
 export const query = graphql`
   query FrontendList($skip: Int, $limit: Int) {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {in: ["html", "css", "sass", "js", "react"]}}}, 
+      filter: {frontmatter: {category: {in: ["html", "css", "sass", "js", "react"]}}},
       sort: {fields: frontmatter___date, order: DESC},
       limit: $limit,
       skip: $skip

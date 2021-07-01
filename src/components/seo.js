@@ -40,6 +40,10 @@ function SEO({ description, lang, meta, title, image }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
+          name: `aplication-name`,
+          content: 'Blog soaresDev'
+        },
+        {
           name: `description`,
           content: metaDescription,
         },
@@ -85,7 +89,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-br`,
   meta: [],
   description: ``,
 }

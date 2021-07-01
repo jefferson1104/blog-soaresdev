@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-twitter`,
     // needs to be the first to work with gatsby-remark-images
     {
       resolve: `gatsby-source-filesystem`,
@@ -54,6 +55,15 @@ module.exports = {
             }
           },
           `gatsby-remark-lazy-load`,
+          `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-external-links`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+              removeAccents: true
+            }
+          },
           `gatsby-remark-prismjs`, // necessário que seja sempre o ultimo plugin da lista
         ],
       },
@@ -71,6 +81,15 @@ module.exports = {
         chunkSize: 10000,
         enablePartialUpdates: true,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        head: false,
+        anonymize: true,
+        respectDNT: true
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,

@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import propTypes from "prop-types"
+import ReactGA from 'react-ga'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -8,6 +9,14 @@ import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
 
 import * as S from '../components/ListWrapper/styled'
+
+const backendClickTrack = backend => {
+  ReactGA.event({
+    category: 'backend',
+    action: 'click',
+    label: `Link backend - ${backend}`
+  })
+}
 
 const Backend = props => {
   const backendList = props.data.allMarkdownRemark.edges
@@ -17,10 +26,10 @@ const Backend = props => {
   const isLast = currentPage === numPages
   const prevPage = currentPage -1 === 1 ? `/` : `/backend/${currentPage - 1}`
   const nextPage = `/backend/${currentPage + 1}`
-  
+
   return (
     <Layout>
-      <SEO 
+      <SEO
         title="Backend"
         description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor backend"
       />
@@ -42,18 +51,19 @@ const Backend = props => {
               timeToRead={timeToRead}
               title={title}
               description={description}
+              onClick={() => backendClickTrack(title)}
             />
           )
         )}
       </S.ListWrapper>
 
-      <Pagination 
-        isFirst={isFirst} 
-        isLast={isLast} 
-        currentPage={currentPage} 
-        numPages={numPages} 
-        prevPage={prevPage} 
-        nextPage={nextPage} 
+      <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
       />
     </Layout>
   )
@@ -62,7 +72,7 @@ const Backend = props => {
 export const query = graphql`
   query BackendList($skip: Int, $limit: Int) {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {in: ["node", "php", "bd"]}}}, 
+      filter: {frontmatter: {category: {in: ["node", "php", "bd"]}}},
       sort: {fields: frontmatter___date, order: DESC},
       limit: $limit,
       skip: $skip
