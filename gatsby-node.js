@@ -1,6 +1,20 @@
 const path = require('path')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      image: String
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `)
+}
+
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -42,9 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
               title
-              image {
-                publicURL
-              }
+              image
             }
             timeToRead
           }
@@ -116,9 +128,7 @@ exports.createPages = ({ graphql, actions }) => {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
               title
-              image {
-                publicURL
-              }
+              image
             }
             timeToRead
           }
@@ -190,9 +200,7 @@ exports.createPages = ({ graphql, actions }) => {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
               title
-              image {
-                publicURL
-              }
+              image
             }
             timeToRead
           }
