@@ -9,8 +9,10 @@ import * as S from "../components/Post/styled"
 
 const AboutPage = () => (
     <Layout>
-        <SEO title="About" />
-
+        <SEO
+          title="Sobre"
+          description="Saiba mais sobre o blog SoaresDev o blog do programador"
+        />
         <S.PostHeader>
             <S.PostTitle>SOBRE</S.PostTitle>
             <S.PostDescription>Blog soaresDev, o blog do desenvolvedor web</S.PostDescription>

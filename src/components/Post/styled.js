@@ -7,6 +7,7 @@ export const PostHeader = styled.header`
   max-width: 70rem;
   padding: 5rem 5rem 0;
 
+
   ${media.lessThan("large")`
     padding: 3rem 0 0;
     max-width: 100%;
@@ -30,6 +31,7 @@ export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
+  color: #4bbcce;
 
   ${media.lessThan("large")`
     font-size: 1.6rem;
@@ -242,7 +244,7 @@ export const MainContent = styled.section`
   #about-banner {
     width: 650px;
     transition: opacity 0.2s;
-    
+
     &:hover {
       opacity: 0.7;
     }
@@ -251,7 +253,7 @@ export const MainContent = styled.section`
       border-radius: 8px;
       margin-left: 20px;
     }
-    
+
     ${media.lessThan("large")`
       width: unset;
 

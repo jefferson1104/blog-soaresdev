@@ -3,8 +3,6 @@ import media from 'styled-media-query'
 
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
-
-
 export const MenuBarWrapper = styled.aside`
   align-items: center;
   background: var(--mediumBackground);
@@ -17,7 +15,7 @@ export const MenuBarWrapper = styled.aside`
   position: fixed;
   right: 0;
   width: 3.75rem;
-  
+
 
   ${media.lessThan('large')`
     border: 0;
@@ -79,7 +77,7 @@ export const MenuBarItem = styled.span`
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
-  
+
 
   svg {
     vertical-align: middle;
