@@ -33,8 +33,6 @@ O Blog **soaresDev** é um projeto desenvolvido no curso de **gatsbyJS** com **G
 
   <li><a target="_blank" href="https://styled-components.com/">Styled-components</a></li>
 
-  <li><a target="_blank" href="https://disqus.com/">Disqus</a></li>
-
   <li><a target="_blank" href="https://www.netlifycms.org/">Netlyfy CMS</a></li>
 </ul>
 
@@ -71,8 +69,8 @@ $ gatsby develop
 </p>
 
 <p align="center">
-  <img width=250 src="./assets/images/screenshot-mobile-01.png">
-  <img width=250 src="./assets/images/screenshot-mobile-02.png">
-  <img width=250 src="./assets/images/screenshot-mobile-03.png">
-  <img width=250 src="./assets/images/screenshot-mobile-04.png">
+  <img width=350 src="./assets/images/screenshot-mobile-01.png">
+  <img width=350 src="./assets/images/screenshot-mobile-02.png">
+  <img width=350 src="./assets/images/screenshot-mobile-04.png">
+  <img width=350 src="./assets/images/screenshot-mobile-03.png">
 </p>

@@ -27,7 +27,7 @@ const AboutPage = () => (
             <p>
                 Este blog é uma forma de agradecer a programação web por toda mudança positiva que fez, e que vem fazendo na minha vida,
                 não fique de fora e sinta-se a vontade para mandar sugestões, participe dessa jornada e contribua com o blog
-                entre em contato comigo através do  <a href="mailto:soaresdevcompany@gmail.com" target="_blank">email soaresdevcompany@gmail.com</a>.
+                entre em contato comigo através do email <a href="mailto:soaresdevcompany@gmail.com" target="_blank">soaresdevcompany@gmail.com</a>.
             </p>
         </S.MainContent>
     </Layout>
