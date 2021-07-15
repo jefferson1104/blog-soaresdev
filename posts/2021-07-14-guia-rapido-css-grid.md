@@ -7,9 +7,9 @@ category: css
 background: '#2278ee'
 ---
 
-![Github Copilot](../assets/img/css-grid-layout-01.png)
+Olá nesse artigo você vai ver um guia rápido de introdução sobre css grid layout para nunca mais esquecer.
 
-Olá nesse post você vai ver um guia ráido de introdução ao css grid layout para nunca mais esquecer.
+![Github Copilot](../assets/img/css-grid-layout-01.png)
 
 ## O que é Grid?
 
