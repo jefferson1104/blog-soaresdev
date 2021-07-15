@@ -15,15 +15,15 @@ const AboutPage = () => (
         />
         <S.PostHeader>
             <S.PostTitle>SOBRE</S.PostTitle>
-            <S.PostDescription>Blog soaresDev, o blog do desenvolvedor web</S.PostDescription>
+            <S.PostDescription>Blog SoaresDev, o blog do desenvolvedor web</S.PostDescription>
         </S.PostHeader>
         <S.MainContent>
             <div id="about-banner">
                 <img  src={imgBanner} alt="soaresDev Banner" />
             </div>
             <p>
-                Olá, meu nome é Jefferson Soares e eu sou desenvolvedor web, desde pequeno sempre fui apaixonado por técnologia e
-                pela forma que ela transforma o mundo, no <strong>Blog soaresDev</strong> vou compartilhar conhecimento, postar
+                Olá, meu nome é Jefferson Soares e eu sou desenvolvedor web, desde pequeno sempre fui apaixonado por tecnologia e
+                pela forma que ela transforma o mundo, no <strong>Blog SoaresDev</strong> vou compartilhar conhecimento,
                 dicas, guias rápidos e também notícias da área de desenvolvimento web.
             </p>
             <p>
