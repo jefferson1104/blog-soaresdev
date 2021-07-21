@@ -1,8 +1,8 @@
 ---
 title: Guia rápido de FlexBox css
-description: Vamos aprender os fundamentos do CSS Flexbox
+description: Aprenda os fundamentos de css flexbox com este guia rápido para iniciantes.
 date: '2021-07-21 10:00:00'
-thumbnail: /assets/img/flexbox-img-01.png
+image: /assets/img/flexbox-img-01.png
 category: css
 background: '#2278ee'
 ---

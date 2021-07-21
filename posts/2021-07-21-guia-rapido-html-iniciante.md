@@ -1,8 +1,7 @@
 ---
 title: Guia rápido de html5 para iniciantes
-description: aprenda html5 em alguns minutos com este guia rápido para iniciante
+description: Com este guia rápido para iniciantes, você vai aprender html5 básico, seus principais conceitos, tags e atributos
 date: '2021-07-21 10:30:00'
-thumbnail: /assets/img/flexbox-img-01.png
 category: html
 background: '#ee6022'
 image: '/assets/img/html5.png'

@@ -1,10 +1,10 @@
 ---
+date: 2021-07-07 10:50:00
 title: Conheça a I.A Github copilot
 description: GitHub apresenta nova ferramenta de IA que faz sugestões de código
-date: '2021-07-07 10:50:00'
-thumbnail: /assets/img/github-copilot.png
 category: misc
 background: '#737380'
+image: '/assets/img/github-copilot.png'
 ---
 
 ![Github Copilot](../assets/img/github-copilot.png)

@@ -1,10 +1,10 @@
 ---
+date: 2021-07-14 10:00:00
 title: Guia rápido de css grid
-description: Um guia de introdução ao css grid layout
-date: '2021-07-14 10:00:00'
-thumbnail: /assets/img/github-copilot.png
+description: Nesse guia de introdução, você vai aprender um pouco sobre css grid layout, como funciona e seus conceitos.
 category: css
 background: '#2278ee'
+image: 'assets/img/css-grid-layout-02.png'
 ---
 
 Olá nesse artigo você vai ver um guia rápido de introdução sobre css grid layout para nunca mais esquecer.
