@@ -5,47 +5,47 @@ backend:
   site_domain: blog.soaresdev.com
 
 publish_mode: editorial_workflow
-media_folder: "static/assets/img"
-public_folder: "assets/img"
+media_folder: 'static/assets/img'
+public_folder: 'assets/img'
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
+  - name: 'posts' # Used in routes, e.g., /admin/collections/blog
+    label: 'Posts' # Used in the UI
+    folder: 'posts' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
       - {
-          label: "Date",
-          name: "date",
-          widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'YYYY-MM-DD hh:mm:ss'
         }
-      - { label: "image", name: "thumbnail", widget: "image" }
+      - { label: 'image', name: 'image', widget: 'image' }
       - {
-          label: "Category",
-          name: "category",
-          widget: "select",
+          label: 'Category',
+          name: 'category',
+          widget: 'select',
           options:
-            ["misc", "html", "css", "sass", "js", "react", "node", "php", "bd"],
+            ['misc', 'html', 'css', 'sass', 'js', 'react', 'node', 'php', 'bd']
         }
       - {
-          label: "Background",
-          name: "background",
-          widget: "select",
+          label: 'Background',
+          name: 'background',
+          widget: 'select',
           options:
             [
-              { label: "misc", value: "#737380" },
-              { label: "html", value: "#ee6022" },
-              { label: "css", value: "#2278ee" },
-              { label: "sass", value: "#f5428d" },
-              { label: "js", value: "#ddcd34" },
-              { label: "react", value: "#60cae1" },
-              { label: "node", value: "#47650b" },
-              { label: "php", value: "#948be3" },
-              { label: "bd", value: "#f54242" },
-            ],
+              { label: 'misc', value: '#737380' },
+              { label: 'html', value: '#ee6022' },
+              { label: 'css', value: '#2278ee' },
+              { label: 'sass', value: '#f5428d' },
+              { label: 'js', value: '#ddcd34' },
+              { label: 'react', value: '#60cae1' },
+              { label: 'node', value: '#47650b' },
+              { label: 'php', value: '#948be3' },
+              { label: 'bd', value: '#f54242' }
+            ]
         }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

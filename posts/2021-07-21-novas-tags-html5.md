@@ -2,7 +2,7 @@
 title: Novas tags do html5
 description: Existem tags do html5 com funcionalidades incríveis que você pode não conhecer, descubra quais são.
 date: '2021-07-21 10:35:00'
-image: /assets/img/flexbox-img-01.png
+image: /assets/img/html5.png
 category: html
 background: '#ee6022'
 ---

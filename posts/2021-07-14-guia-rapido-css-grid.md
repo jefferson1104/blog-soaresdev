@@ -4,7 +4,7 @@ title: Guia rápido de css grid
 description: Nesse guia de introdução, você vai aprender um pouco sobre css grid layout, como funciona e seus conceitos.
 category: css
 background: '#2278ee'
-image: 'assets/img/css-grid-layout-02.png'
+image: /assets/img/css-grid-layout-02.png
 ---
 
 Olá nesse artigo você vai ver um guia rápido de introdução sobre css grid layout para nunca mais esquecer.
