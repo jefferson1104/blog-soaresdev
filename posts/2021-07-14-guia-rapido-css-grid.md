@@ -13,13 +13,7 @@ Olá nesse artigo você vai ver um guia rápido de introdução sobre css grid l
 
 ## O que é Grid?
 
-O layout **CSS Grid** (ou apenas "**Grid**") é um sistema bi-dimensional baseado em uma "grade" (grid em inglês).
-
-E isso o torna muito útil pois assim trabalhamos com um layout em linhas e colunas (**rows** e **columns**).
-
-O layout Grid consiste de um elemento pai (**parent**) com um ou mais elementos filhos (**child elements**).
-
-Portanto, o elemento pai é um **container**, e os elementos filhos são **items**.
+O layout **CSS Grid** (ou apenas "**Grid**") é um sistema bi-dimensional baseado em uma "grade" (grid em inglês), e isso o torna muito útil pois assim trabalhamos com um layout em linhas e colunas (**rows** e **columns**). O layout Grid consiste de um elemento pai (**parent**) com um ou mais elementos filhos (**child elements**), portanto, o elemento pai é um **container**, e os elementos filhos são **items**.
 
 ![Github Copilot](../assets/img/css-grid-layout-02.png)
 
