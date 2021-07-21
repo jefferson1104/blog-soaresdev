@@ -77,7 +77,7 @@ Note que a propriedade de CSS **columns** não tem efeito em um _flex container_
 
 #### flex-direction
 
-![flex-direction](../assets/img/flexbox-img-04.svg)
+![flex-direction](../assets/img/flexbox-img-04.png)
 
 Estabelece o eixo principal, definindo assim a direção em que os _flex items_ são alinhados no _flex container_. O Flexbox é (com exceção de um wrapping opcional) um conceito de layout de uma só direção. Pense nos _flex items_ inicialmente posicionais ou em linhas horizontais ou em colunas verticais.
 
@@ -94,7 +94,7 @@ Estabelece o eixo principal, definindo assim a direção em que os _flex items_ 
 
 #### flex-wrap
 
-![flex-wrap](../assets/img/flexbox-img-05.svg)
+![flex-wrap](../assets/img/flexbox-img-05.png)
 
 Por padrão, os _flex items_ vão todos tentar se encaixar em uma só linha. Com esta propriedade você pode modificar esse comportamento e permitir que os ítens quebrem para uma linha seguinte conforme for necessário.
 
@@ -120,7 +120,7 @@ A propriedade **flex-flow** é uma propriedade _shorthand_ (uma mesma declaraç�
 
 #### justify-content
 
-![justify-content](../assets/img/flexbox-img-06.svg)
+![justify-content](../assets/img/flexbox-img-06.png)
 Esta propriedade define o alinhamento dos ítens ao longo do eixo principal. Ajuda a distribuir o espaço livre que sobrar no container tanto se todos os flex items em uma linha são inflexíveis, ou são flexíveis mas já atingiram seu tamanho máximo. Também exerce algum controle sobre o alinhamento de ítens quando eles ultrapassam o limite da linha.
 
 ```css
@@ -156,7 +156,7 @@ Também existem duas palavras-chave adicionais que você pode usar em conjunto c
 
 #### align-items
 
-![align-items](../assets/img/flexbox-img-07.svg)
+![align-items](../assets/img/flexbox-img-07.png)
 define o comportamento padrão de como _flex items_ são alinhados de acordo com o eixo transversal (cross axis). De certa forma, funciona de forma similar ao `justify-content`, porém no eixo transversal (perpendicular ao eixo principal).
 
 ```css
@@ -177,7 +177,7 @@ Os modificadores `safe` e `unsafe` pode ser usados em conjunto com todas essas p
 
 #### align-content
 
-![align-content](../assets/img/flexbox-img-08.svg)
+![align-content](../assets/img/flexbox-img-08.png)
 Organiza as linhas dentro de um flex container quando há espaço extra no eixo transversal, similar ao modo como `justify-content` alinha ítens individuais dentro do eixo principal.
 
 **Importante**: Esta propriedade não tem efeito quando há somente uma linha de flex items no container.
@@ -224,7 +224,7 @@ Você pode definir as propriedades abaixo para apenas um dos elementos-filhos at
 #### order
 
 Determina a ordem em que os elementos aparecerão.
-![order](../assets/img/flexbox-img-09.svg)
+![order](../assets/img/flexbox-img-09.png)
 
 Por padrão os flex items são dispostos na tela na ordem do código. Mas a propriedade `order` controla a ordem em que aparecerão no container.
 
@@ -236,7 +236,7 @@ Por padrão os flex items são dispostos na tela na ordem do código. Mas a prop
 
 #### flex-grow
 
-![flex-grow](../assets/img/flexbox-img-10.svg)
+![flex-grow](../assets/img/flexbox-img-10.png)
 Define a habilidade de um flex item de crescer, caso necessário. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item.
 
 Se todos os ítens tiverem `flex-grow` definido em 1, o espaço remanescente no container será distribuído de forma igual entre todos. Se um dos ítens tem o valor de 2, vai ocupar o dobro de espaço no container com relação aos outros (ou pelo menos vai tentar fazer isso).
@@ -281,7 +281,7 @@ _É recomendado que você utilize esta propriedade_ **shorthand** ao invés de d
 
 #### align-self
 
-![align-self](../assets/img/flexbox-img-11.svg)
+![align-self](../assets/img/flexbox-img-11.png)
 
 Permite que o alinhamento padrão (ou o que estiver definido por `align-items`) seja sobrescrito para ítens individuais.
 
