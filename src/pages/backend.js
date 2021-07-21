@@ -31,7 +31,7 @@ const Backend = props => {
     <Layout>
       <SEO
         title="Backend"
-        description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor backend"
+        description="Dicas e tutoriais para você evoluir como um desenvolvedor back-end, aqui no Blog SoaresDev você encontra muito conteúdo."
       />
       <S.ListWrapper>
         {backendList.map(

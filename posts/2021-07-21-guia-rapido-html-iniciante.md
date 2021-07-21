@@ -5,6 +5,7 @@ date: '2021-07-21 10:30:00'
 thumbnail: /assets/img/flexbox-img-01.png
 category: html
 background: '#ee6022'
+image: '/assets/img/html5.png'
 ---
 
 ![Github Copilot](../assets/img/html5.png)

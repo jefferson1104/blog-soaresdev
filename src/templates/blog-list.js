@@ -11,7 +11,7 @@ import * as S from '../components/ListWrapper/styled'
 const BlogList = (props) => {
   const postList = props.data.allMarkdownRemark.edges
 
-  const { currentPage, numPages } = props.pageContext  
+  const { currentPage, numPages } = props.pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
   const prevPage = currentPage -1 === 1 ? `/` : `/page/${currentPage - 1}`
@@ -21,9 +21,9 @@ const BlogList = (props) => {
 
   return (
     <Layout>
-      <SEO 
-        title="Blog"
-        description="Blog do programador, javascript, reactjs, nodejs e muito mais."
+      <SEO
+        title="Blog SoaresDev"
+        description="O Blog SoaresDev é melhor lugar para você encontrar dicas, tutoriais e notícias sobre desenvolvimento web, acesse e aprenda novidades no backend e frontend com o melhor conteúdo."
         image={imageBanner}
       />
       <S.ListWrapper>
@@ -49,13 +49,13 @@ const BlogList = (props) => {
         )}
       </S.ListWrapper>
 
-      <Pagination 
-        isFirst={isFirst} 
-        isLast={isLast} 
-        currentPage={currentPage} 
-        numPages={numPages} 
-        prevPage={prevPage} 
-        nextPage={nextPage} 
+      <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        currentPage={currentPage}
+        numPages={numPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
       />
     </Layout>
   )

@@ -11,7 +11,7 @@ const AboutPage = () => (
     <Layout>
         <SEO
           title="Sobre"
-          description="Saiba mais sobre o blog SoaresDev o blog do programador"
+          description="O blog SoaresDev é o lugar certo para você aprender coisas novas no mundo do desenvolvimento web."
         />
         <S.PostHeader>
             <S.PostTitle>SOBRE</S.PostTitle>

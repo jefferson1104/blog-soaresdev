@@ -31,7 +31,7 @@ const Frontend = props => {
     <Layout>
       <SEO
         title="Frontend"
-        description="As melhores dicas e tutoriais para voce se tornar um desenvolvedor frontend"
+        description="Com o conteúdo do blog soaresdev você obtem mais conhecimento para se tornar um melhor desenvolvedor front-end, acesse e veja dicas, tutoriais e guias rápidos das melhores techs do mercado."
       />
       <S.ListWrapper>
         {frontendList.map(
