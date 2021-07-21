@@ -65,6 +65,7 @@ export const MainContent = styled.section`
   h2,
   h3,
   h4,
+  h5,
   ul,
   ol,
   .tags,
