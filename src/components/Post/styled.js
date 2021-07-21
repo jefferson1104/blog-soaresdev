@@ -29,7 +29,7 @@ export const PostTitle = styled.h1`
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 500;
   padding: 0 1.4rem;
   color: #4bbcce;
 
