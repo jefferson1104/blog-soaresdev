@@ -2,9 +2,9 @@
 date: 2021-06-23 05:54:23
 title: Programação front-end
 description: O que é um desenvolvedor front-end?
-category: js
-background: "#ddcd34"
-image: "/assets/img/frontend.jpg"
+category: front
+background: '#38618c'
+image: '/assets/img/frontend.jpg'
 ---
 
 O front end de um site é a parte com a qual os usuários interagem. Tudo o que você vê quando está navegando pela Internet, de fontes e cores a menus suspensos e controles deslizantes, é uma combinação de HTML, CSS e JavaScript controlada pelo navegador do seu computador.

@@ -2,9 +2,9 @@
 date: 2021-06-23 05:54:23
 title: Programação back-end
 description: O que é um desenvolvedor back-end?
-category: php
-background: "#948be3"
-image: "/assets/img/backend.jpg"
+category: back
+background: '#ff5964'
+image: '/assets/img/backend.jpg'
 ---
 
 Então, o que torna possível o front-end de um site? Onde todos esses dados estão armazenados? É aqui que entra o back-end. O back-end de um site da Web consiste em um servidor, um aplicativo e um banco de dados. Um desenvolvedor back-end constrói e mantém a tecnologia que alimenta esses componentes que, juntos, permitem que o lado voltado para o usuário do site exista em primeiro lugar.
