@@ -72,7 +72,7 @@ const Frontend = props => {
 export const query = graphql`
   query FrontendList($skip: Int, $limit: Int) {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {in: ["html", "css", "sass", "js", "react"]}}},
+      filter: {frontmatter: {category: {in: ["front", "html", "css", "sass", "js", "react"]}}},
       sort: {fields: frontmatter___date, order: DESC},
       limit: $limit,
       skip: $skip

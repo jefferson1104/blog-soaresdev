@@ -72,7 +72,7 @@ const Backend = props => {
 export const query = graphql`
   query BackendList($skip: Int, $limit: Int) {
     allMarkdownRemark(
-      filter: {frontmatter: {category: {in: ["node", "php", "bd"]}}},
+      filter: {frontmatter: {category: {in: ["back", "node", "php", "bd"]}}},
       sort: {fields: frontmatter___date, order: DESC},
       limit: $limit,
       skip: $skip
