@@ -2,7 +2,7 @@
 title: Radio button personalizado com CSS
 description: Já pensou como que podemos fazer um input radio personalizado bonitão?
 date: 2021-07-30 12:45:32
-image: assets/img/css3-logo.jpg
+image: /assets/img/css3-logo.jpg
 category: css
 background: '#2278ee'
 ---
