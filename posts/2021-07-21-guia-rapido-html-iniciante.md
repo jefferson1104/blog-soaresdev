@@ -4,10 +4,10 @@ description: Com este guia rápido para iniciantes, você vai aprender html5 bá
 date: '2021-07-21 10:30:00'
 category: html
 background: '#ee6022'
-image: '/assets/img/html5.png'
+image: '/assets/img/html5/html5.png'
 ---
 
-![Github Copilot](../assets/img/html5.png)
+![Github Copilot](../assets/img/html5/html5.png)
 Que tal aprender um pouco de HTML ? com este guia básico para iniciantes você consegue começar os estudos com HTML e HTML 5.
 
 ## O que é HTML?
@@ -132,7 +132,7 @@ Quando escrevemos texto em HTML, também temos uma série de outros elementos qu
 ##### Outros Elementos-Chave
 
 Eles são os seguintes:
-![outros elementos html](../assets/img/html5-guia-rapido-01.png)
+![outros elementos html](../assets/img/html5/html5-guia-rapido-01.png)
 
 Essas tags devem ser abertas e fechadas em torno do texto em questão.
 

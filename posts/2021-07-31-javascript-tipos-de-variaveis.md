@@ -2,12 +2,12 @@
 title: Javascript - tipos de variaveis
 description: Conheça os tipos de variáveis mais comuns utilizadas no javascript.
 date: 2021-07-30 12:45:32
-image: /assets/img/javascript.jpg
+image: /assets/img/javascript/javascript.jpg
 category: js
 background: '#ddcd34'
 ---
 
-![banner javascript](../assets/img/banner-01.jpeg)
+![banner javascript](../assets/img/javascript/banner-01.jpeg)
 
 Uma variável serve para você guardar um valor, como um número que podemos usar em uma operação de adição, ou uma sequência de texto que possamos usar como parte de uma oração. Mas uma coisa especial a respeito das variáveis no javascript é que existem formas diferentes de declarar.
 
@@ -195,7 +195,7 @@ typeof(numberTwo)
 
 Tente inserir as linhas acima em seu console uma por uma, e veja quais são os resultados. Você notará que estamos usando uma função especial chamada **typeof()** — ela irá retornar o tipo de dado da variável que você passar. Da primeira vez que for executada, deve retornar string, como naquele ponto a variável **numberOne** contém uma string, '500'. Dê uma olhada e veja o que é retornado da segunda vez que você a utilizar.
 
-![digitação permissiva](../assets/img/javascript-digitacao-permissiva.png)
+![digitação permissiva](../assets/img/javascript/javascript-digitacao-permissiva.png)
 
 ## Concatenando variáveis
 

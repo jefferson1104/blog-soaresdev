@@ -7,7 +7,7 @@ category: html
 background: '#ee6022'
 ---
 
-![Github Copilot](../assets/img/html5.png)
+![Github Copilot](../assets/img/html5/html5.png)
 Você vai aprender agora novas tags do HTML5 que você não conhecia, vamos ver quais são e quais as suas funcionalidades.
 
 ## `<optgroup>`
@@ -27,7 +27,7 @@ Separe as opções do elemento `<select>` por grupos.
 </select>
 ```
 
-![resultado-optgroup](../assets/img/html5-novas-tags-01.png)
+![resultado-optgroup](../assets/img/html5/html5-novas-tags-01.png)
 
 ## `<del>`
 
@@ -37,7 +37,7 @@ O Elemento del representa uma parte do texto que foi excluída de um documento.
 <p><del>Hoje eu não quero estudar</del></p>
 ```
 
-![resultado-del](../assets/img/html5-novas-tags-02.png)
+![resultado-del](../assets/img/html5/html5-novas-tags-02.png)
 
 ## `<output>`
 
@@ -55,7 +55,7 @@ Use o output para injetar os resultados de um cálculo ou o resultado de uma aç
 </form>
 ```
 
-![resultado-del](../assets/img/html5-novas-tags-03.png)
+![resultado-del](../assets/img/html5/html5-novas-tags-03.png)
 
 ## `<datalist>`
 
@@ -70,7 +70,7 @@ Crie um menu dropdown com autocomplete usando HTML.
 </datalist>
 ```
 
-![resultado-del](../assets/img/html5-novas-tags-04.png)
+![resultado-del](../assets/img/html5/html5-novas-tags-04.png)
 
 ## `<progress>`
 
@@ -80,7 +80,7 @@ Crie uma barra de progresso usando apenas HTML nativo.
 <progress value="50" max="100">50%</progress>
 ```
 
-![resultado-del](../assets/img/html5-novas-tags-05.png)
+![resultado-del](../assets/img/html5/html5-novas-tags-05.png)
 
 ## `<details>`
 
@@ -93,7 +93,7 @@ Crie elementos adicionais que aparecem e somem ao clicar.
 </details>
 ```
 
-![resultado-del](../assets/img/html5-novas-tags-06.png)
+![resultado-del](../assets/img/html5/html5-novas-tags-06.png)
 
 # Bonus
 
