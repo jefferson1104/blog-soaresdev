@@ -7,17 +7,16 @@ category: node
 background: '#47650b'
 ---
 
-![html5](../assets/img/deploy-tutorial/guia-completo-deploy-nodejs.png)
-
 ## DEPLOY INTERMEDIÁRIO DE UMA API (BACKEND) NODEJS COM TYPESCRIPT
 
 Neste guia completo vou ensinar como fazer um deploy intermediário de uma aplicação feita com nodejs e typescript, trata-se de um deploy do backend (API) de um projeto, neste guia vamos utilizar um projeto como exemplo, antes de iniciar é importante você fazer uma cópia deste projeto e subir ele no seu gihub, então crie um repositório e faça um push com a aplicação que você deseja fazer deploy ou utilize a nossa aplicação.
 
+![html5](../assets/img/deploy-tutorial/guia-completo-deploy-nodejs.png)
 ### UTILIZAMOS AQUI
 
-**Máquina pessoal**: Ubuntu desktop 20.04 LTS, Docker, Yarn, Node 14.x
-**Servidor/VPS**: ubuntu server 20.04 LTS, Docker, Yarn, Node 14.x
-**API NodeJS TypeScript**: [GOBARBER](https://github.com/jefferson1104/gobarber-nodejs)
+- **Máquina pessoal**: Ubuntu desktop 20.04 LTS, Docker, Yarn, Node 14.x
+- **Servidor/VPS**: ubuntu server 20.04 LTS, Docker, Yarn, Node 14.x
+- **API NodeJS TypeScript**: [GOBARBER](https://github.com/jefferson1104/gobarber-nodejs)
 
 > **OBSERVAÇÃO**: Caso sua aplicação seja construida com typescript, ES6 ou alguma versão mais moderna do javascript, vamos precisar da ferramenta **[babel](https://babeljs.io/)**, para fazer a transpilação de código javascript moderno para uma versão que os ambientee de execução seja ele o próprio **browser** (navegador) ou **Node**.
 
