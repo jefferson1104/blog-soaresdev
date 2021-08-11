@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `SoaresDev`,
     position: `Programação Web`,
-    description: `Dicas e guias rápidos para programadores com as melhores tecnologias do mercado da atualidade.`,
+    description: `O melhor conteúdo para desenvolvimento web, dicas, guias e tutoriais para sua evolução contínua, nunca pare de aprender.`,
     author: `@jeffersonsjunior`,
     siteUrl: `https://blog.soaresdev.com/`
   },
