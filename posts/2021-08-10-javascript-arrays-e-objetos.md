@@ -11,7 +11,7 @@ Um array é um conjunto de valores ordenados que você o referencia com um nome 
 
 Importante lembrar que sua posição sempre irá iniciar do **zero**, chamamos de a posição de um array de **índice**.
 
-![banner javascript](../assets/img/development-05.jpeg)
+![banner javascript](../assets/img/development-03.jpeg)
 
 ## ARRAY
 ```Javascript
