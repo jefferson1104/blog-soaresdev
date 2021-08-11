@@ -7,11 +7,11 @@ category: js
 background: '#ddcd34'
 ---
 
-![banner javascript](../assets/img/javascript/banner-01.jpeg)
-
 Um array é um conjunto de valores ordenados que você o referencia com um nome e um índice, ele também é conhecido como Listas, Vetores ou Matrizes.
 
 Importante lembrar que sua posição sempre irá iniciar do **zero**, chamamos de a posição de um array de **índice**.
+
+![banner javascript](../assets/img/development-05.jpeg)
 
 ## ARRAY
 ```Javascript
