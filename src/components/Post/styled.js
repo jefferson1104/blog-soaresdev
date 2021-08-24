@@ -18,7 +18,7 @@ export const PostTitle = styled.h1`
   font-size: 4rem;
   font-weight: 700;
   padding: 0 1.4rem;
-  margin: 1rem auto;
+  margin: 2.5rem auto;
 
   ${media.lessThan("large")`
     font-size: 2.2rem;
@@ -30,6 +30,9 @@ export const PostTitle = styled.h1`
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 500;
+
+  letter-spacing: 0.90px;
+  line-height: 1.3;
   padding: 0 1.4rem;
   color: #4bbcce;
 
