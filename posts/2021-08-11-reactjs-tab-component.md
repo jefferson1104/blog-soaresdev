@@ -1,5 +1,5 @@
 ---
-title: ReactJS - como criar um tab component
+title: Como criar um tab component com React.js
 description: Nesse artigo você vai aprender como construir um componente de guia no React e criar funções que tratam da alternância de guias.
 date: 2021-08-11 18:45:32
 image: /assets/img/react/react-banner.png

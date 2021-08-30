@@ -1,5 +1,5 @@
 ---
-title: Deploy de app reactjs no netlify
+title: Deploy de um projeto React.js na netlify
 description: Aprenda a fazer o deploy de aplicações reactjs no netlify, a maneira mais facil de fazer um deploy do seu front end desenvolvido com react.
 date: 2021-08-24 11:45:32
 image: /assets/img/react/reactjs-deploy.jpg
