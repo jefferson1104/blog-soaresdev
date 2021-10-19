@@ -71,15 +71,16 @@ export const MainContent = styled.section`
   h5,
   ul,
   ol,
+  li,
   .tags,
   iframe,
   .button-post {
     color: var(--postColor);
     font-size: 1.25rem;
     font-weight: 300;
-    line-height: 1.7;
+    line-height: 1.5;
     letter-spacing: 0.069rem;
-    padding: 0 1.4rem;
+    padding: 0 1.2rem;
   }
 
   ${media.lessThan("large")`
@@ -88,7 +89,7 @@ export const MainContent = styled.section`
   `}
 
   p {
-    margin: 0 auto 1.6rem;
+    margin: 0 auto 1.2rem;
   }
 
   h1,
@@ -107,7 +108,7 @@ export const MainContent = styled.section`
   }
 
   li {
-    padding: 0.625rem 0;
+    padding: 0.1rem 0;
     & > ul {
       margin-bottom: 0;
     }
@@ -137,9 +138,10 @@ export const MainContent = styled.section`
 
   blockquote {
     color: var(--texts);
+    background: var(--mediumBackground);
     border-left: 0.3rem solid var(--highlight);
-    padding: 0 1.875rem;
-    margin: 3.125rem auto;
+    padding: .5rem;
+    margin: 1rem;
 
     ${media.lessThan('large')`
       margin-left: 1rem;
