@@ -2,7 +2,7 @@
 title: Como configurar o Apollo GraphQL no Next.js
 description: Como configurar o Apollo Client em um projeto Next.js e fazer requisição de dados através do server side rendering
 date: 2022-01-18 01:00:00
-image: /static/assets/img/react/nextjs-apollo-client-banner.png
+image: /assets/img/react/nextjs-apollo-client-banner.png
 category: react
 background: '#60cae1'
 ---
