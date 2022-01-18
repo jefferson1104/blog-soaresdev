@@ -13,8 +13,6 @@ const BlogPost = ({ data, pageContext }) => {
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
 
-  console.log('CONSOLANDO', post )
-
   return (
     <Layout>
       <SEO

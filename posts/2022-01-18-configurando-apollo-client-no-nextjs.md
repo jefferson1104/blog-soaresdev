@@ -1,5 +1,5 @@
 ---
-title: Apollo Client no Next.js com SSR
+title: Como configurar o Apollo GraphQL no Next.js
 description: Como configurar o Apollo Client em um projeto Next.js e fazer requisição de dados através do server side rendering
 date: 2022-01-18 01:00:00
 image: /static/assets/img/react/nextjs-apollo-client-banner.png
@@ -10,7 +10,7 @@ background: '#60cae1'
 ![tab-component](../static/assets/img/react/nextjs-apollo-client-banner.png)
 
 # APOLLO CLIENT (REACTJS/NEXTJS)
-Para iniciar esse guia, você pode usar nosso projeto como exemplo, aplicar em seu projeto atual ou criar do zero um projeto Next.js, neste tutorial eu criei um projeto utilizando o template do typescript, caso for criar do zero execute o comando:
+Para iniciar esse guia, você pode usar nosso [projeto como exemplo](https://github.com/jefferson1104/nextjs-graphql-apollo), aplicar em seu projeto atual ou criar do zero um projeto Next.js, neste tutorial eu criei um projeto utilizando o template do typescript, caso for criar do zero execute o comando:
 
 ```bash
 $ yarn create next-app --typescript
