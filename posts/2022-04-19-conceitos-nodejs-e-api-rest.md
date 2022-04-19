@@ -34,12 +34,13 @@ API um acronimo para **Application Programming Interface**(Interface de Programa
 REST um acronimo para **Representation State Transfer** (Transferência Representacional de Estado), podemos dizer trata-se de um **modelo de arquitetura** e basicamente quando utilizamos os seus conceitos para criar uma API então chamamos nossa aplicação desenvolvida de **API REST**.
 
 > **REGRAS DO REST**:
-> **1 - Client-Server:** tem que existir os dois papéis, o client e o server, não necessáriamente precisa ser front-end e back-end, podemos ter por exemplo uma API que consome outra API.
-> **2 - Stateless:** o sistema não pode ter sessões amarradas/criadas para o client, e as requisições tem que ter todos os dados para o processo ser realizado e a resposta ser completa.
-> **3 - Cache:** precisa permitir que o cache seja feito caso necessário.
-> **4 - Interface Uniforme:** a API não pode fazer distinção de clients, por exemplo não pode diferenciar e processar algo diferente para o navegador, app mobile e etc...
-> **5 - Camadas:** sistemas em camadas entre o client e a API deve ser possivel adicionar algum serviço como por exemplo log da aplicação.
-> **6 - Código sob demanda:** por exemplo javascript importando direto do servidor da API.
+
+**1 - Client-Server:** tem que existir os dois papéis, o client e o server, não necessáriamente precisa ser front-end e back-end, podemos ter por exemplo uma API que consome outra API.
+**2 - Stateless:** o sistema não pode ter sessões amarradas/criadas para o client, e as requisições tem que ter todos os dados para o processo ser realizado e a resposta ser completa.
+**3 - Cache:** precisa permitir que o cache seja feito caso necessário.
+**4 - Interface Uniforme:** a API não pode fazer distinção de clients, por exemplo não pode diferenciar e processar algo diferente para o navegador, app mobile e etc...
+**5 - Camadas:** sistemas em camadas entre o client e a API deve ser possivel adicionar algum serviço como por exemplo log da aplicação.
+**6 - Código sob demanda:** por exemplo javascript importando direto do servidor da API.
 > saiba mais sobre [clicando aqui](https://www.alura.com.br/artigos/rest-principios-e-boas-praticas)
 
 ### MÉTODOS DE REQUISIÇÕES
@@ -81,7 +82,6 @@ REST um acronimo para **Representation State Transfer** (Transferência Represen
 **Body Params**: são parâmetros que enviamos no corpo das requisições.
 
 ![parametros das requisicoes](../assets/img/nodejs/parametros-das-requisicoes.png)
-
 
 ### BOAS PRÁTICAS API REST
 ![boas praticas para api rest](../assets/img/nodejs/boas-praticas-api-rest.png)
