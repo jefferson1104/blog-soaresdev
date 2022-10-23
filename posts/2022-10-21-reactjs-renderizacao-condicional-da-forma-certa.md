@@ -2,7 +2,7 @@
 title: Pare de usar “&&” para renderização condicional no React
 description: Evite bugs não usando "&&" em componentes React
 date: 2022-10-21 10:00:00
-image: /assets/img/react/reactjs-deploy.jpg
+image: /assets/img/react/wrong-render-conditional.png
 category: react
 background: '#60cae1'
 ---
