@@ -244,21 +244,21 @@ runPromises()
 O uso do `async / await` junto com `try / catch` é uma grande vantagem pois o `try / catch` irá capturar erros de promise no `reject` como também pode capturar outros erros também.
 
 ### Guia Rápido
-###### O que é uma `promise`?
+##### O que é uma `promise`?
 É um objeto que "encapsula" o estado de uma execução (sucesso ou falha) e executa `callbacks` com base neste estado.
 
-###### Qual é a relação entre `Promise` e `callback`?
+##### Qual é a relação entre `Promise` e `callback`?
 As `callbacks` são parâmetros dentro da função de uma promise que são responsáveis para designar como a promise irá se comportar dependendo do seu resultado. As duas principais `callbacks` usadas são `resolve` e `reject`.
 - `Resolve`: Se a promise funcionar como esperada, essa callback irá retornar a sequência de resolução do código.
 - `Reject`: Se a promise não funcionar como esperada, essa callback irá retornar um erro para a chamada da promise.
 
-###### Qual é a relação entre Promise e `Async / Await`?
+##### Qual é a relação entre Promise e `Async / Await`?
 `Async / Await` é uma forma mais simples de se chamar promises. Para usá-los, nós precisamos ter uma promise criada, uma função com o prefixo `async` onde será inserida as chamadas da promise com o prefixo `await`.
 
-###### O que `Async / Await` faz com nosso código?
+##### O que `Async / Await` faz com nosso código?
 Irá executar o bloco `.then` sem a necessidade de aninhá-los para cada chamada de promise, tornando o código mais legível. Além disso, para tratar erros apropriadamente, é importante que envolva as chamadas da promises `await` em torno de um bloco `try / catch`.
 
-###### Existe algo a mais para saber sobre promises?
+##### Existe algo a mais para saber sobre promises?
 Sim, recentemente o `Node.JS` teve um update com o `Promise.all` para chamar várias promises em ainda menos linhas de código.
 
 Ah, e nunca se esqueça que você pode sempre contar com o [MDN Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise) para aprender de uma fonte confiável!
