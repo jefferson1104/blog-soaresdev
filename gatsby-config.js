@@ -4,9 +4,9 @@ const queries = require('./src/utils/algolia_queries')
 
 module.exports = {
   siteMetadata: {
-    title: `SoaresDev`,
-    position: `Programação Web`,
-    description: `O melhor conteúdo para desenvolvimento web, dicas, guias e tutoriais para sua evolução contínua, nunca pare de aprender.`,
+    title: `Blog SoaresDev`,
+    position: `Desenvolvimento Web`,
+    description: `Aqui você encontra conteudos como dicas, guias e tutoriais sobre html, css, javascript, Node.js, React.js e outras tecnologias.`,
     author: `@jeffersonsjunior`,
     siteUrl: `https://blog.soaresdev.com/`
   },
