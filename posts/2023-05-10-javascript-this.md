@@ -1,7 +1,7 @@
 ---
 title: JavaScript This
 description: Entenda o que é a palavra-chave "this" do JavaScript.
-date: 2022-05-10 11:00:00
+date: 2023-05-10 11:00:00
 image: /assets/img/javascript/javascript-this.png
 category: js
 background: '#ddcd34'
