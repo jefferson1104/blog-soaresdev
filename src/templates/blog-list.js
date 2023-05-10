@@ -23,7 +23,7 @@ const BlogList = (props) => {
     <Layout>
       <SEO
         title="Blog SoaresDev"
-        description="Aqui você encontra conteudos sobre desenvolvimento web como dicas, guias e tutoriais sobre html, css, javascript, Node.js, React.js e outras tecnologias."
+        description="Dicas, explicações e tutoriais sobre desenvolvimento web, Javascript, Node.js, React.js e muito mais."
         image={imageBanner}
       />
       <S.ListWrapper>

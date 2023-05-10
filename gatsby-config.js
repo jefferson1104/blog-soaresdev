@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog SoaresDev`,
     position: `Desenvolvimento Web`,
-    description: `Aqui você encontra conteudos como dicas, guias e tutoriais sobre html, css, javascript, Node.js, React.js e outras tecnologias.`,
+    description: `Dicas, explicações e tutoriais sobre desenvolvimento web, Javascript, Node.js, React.js e muito mais.`,
     author: `@jeffersonsjunior`,
     siteUrl: `https://blog.soaresdev.com/`
   },
