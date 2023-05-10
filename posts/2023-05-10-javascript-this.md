@@ -1,6 +1,6 @@
 ---
 title: JavaScript This
-description: Entenda o que é a palavra-chave "this" do JavaScript.
+description: Entenda o que é e como funciona o "this" do JavaScript.
 date: 2023-05-10 11:00:00
 image: /assets/img/javascript/javascript-this.png
 category: js
