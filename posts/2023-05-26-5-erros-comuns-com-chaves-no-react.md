@@ -2,12 +2,12 @@
 title: 5 erros comuns com chaves no React
 description: Vamos tentar resumir a documentação sobre chaves no React
 date: 2023-05-26 11:00:00
-image: /assets/img/react/react-key.png
+image: /assets/img/react/reactjs-key.png
 category: react
 background: '#60cae1'
 ---
 
-![react-key-banner](../assets/img/react/react-key.png)
+![react-key-banner](../assets/img/react/reactjs-key.png)
 
 Vamos là, de acordo com a [documentação sobre chaves no react](https://reactjs.org/docs/lists-and-keys.html) veja alguns pontos abaixo:
 
