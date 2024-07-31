@@ -160,3 +160,7 @@ console.log('End')     |                   |                    |
 ## Resumo
 
 O Event Loop em JavaScript é uma parte crucial de como a linguagem lida com operações assíncronas, garantindo que a execução do código não seja bloqueada. Entender o Event Loop ajuda a escrever código assíncrono mais eficiente e livre de bugs, especialmente ao lidar com múltiplas operações assíncronas.
+
+
+**Veja o conteúdo em inglês na minha página do Medium:**
+https://medium.com/@jeffersonscjunior/javascript-event-loop-6daf990d4d25

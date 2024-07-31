@@ -90,3 +90,6 @@ Hoisting em JavaScript é um comportamento onde declarações de variáveis e fu
 4. **Expressões de função** não são hasteadas (erguidas), resultando em um erro se chamadas antes da atribuição.
 
 Entender o hoisting ajuda a evitar bugs potenciais e a escrever um código JavaScript mais previsível.
+
+**Veja o conteúdo em inglês na minha página do Medium:**
+https://medium.com/@jeffersonscjunior/javascript-hoisting-1ca762d3ee59
