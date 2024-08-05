@@ -14,11 +14,11 @@
   <img alt="technology" src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white">
 </p>
 
-##### :memo: Sobre o projeto
+##### :memo: About
 
-O Blog **soaresDev** é um projeto desenvolvido no curso de **gatsbyJS** com **GraphQL** do professor [Willian Justen](http://willianjusten.com.br/), trata-se de um **PWA** com os melhores conceitos para **SEO** integração com **CMS** o um serviço de buscas chamado **ALGOLIA**, foi desenvolvido algumas melhorias que não tinha no projeto original como páginas estáticas com querys do graphQL filtrando categorias, menu hamburguer na versão mobile, google analytics e muitas outras melhorias, baixe o projeto em sua máquina local.
+SoaresDev Blog is a personal project I developed using the React framework Gatsby.js. Technologies and practices include GraphQL for efficient data queries, Markdown file integration for posts, Netlify CMS integration for content management, Google Analytics integration for site performance monitoring and analysis, SEO techniques resulting in a perfect 100 Google Lighthouse score. The blog features posts on technology and programming, aimed at helping and inspiring other developers.
 
-##### :rocket: Principais tecnologias
+##### :rocket: Main Technologies
 
 <ul>
   <li><a target="_blank" href="https://devdocs.io/javascript/">Javascript</a></li>
@@ -36,7 +36,7 @@ O Blog **soaresDev** é um projeto desenvolvido no curso de **gatsbyJS** com **G
   <li><a target="_blank" href="https://www.netlifycms.org/">Netlyfy CMS</a></li>
 </ul>
 
-##### :cyclone: Como executar este projeto localmente?
+##### :cyclone: Run locally
 
 ```bash
 # Clone este repositório
